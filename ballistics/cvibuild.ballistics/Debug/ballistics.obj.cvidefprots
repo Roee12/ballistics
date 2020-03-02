@@ -1,0 +1,56 @@
+[main]
+Class="Function"
+Prototype="int main(int argc, char **argv);"
+
+[panelFunc]
+Class="Function"
+Prototype="int panelFunc(int panel, int event, void *callbackData, int eventData1, int eventData2);"
+
+[setFunc]
+Class="Function"
+Prototype="int setFunc(int panel, int control, int event, void *callbackData, int eventData1, int eventData2);"
+
+[runFunc]
+Class="Function"
+Prototype="int runFunc(int panel, int control, int event, void *callbackData, int eventData1, int eventData2);"
+
+[loadFunc]
+Class="Function"
+Prototype="int loadFunc(int panel, int control, int event, void *callbackData, int eventData1, int eventData2);"
+
+[resetFunc]
+Class="Function"
+Prototype="int resetFunc(int panel, int control, int event, void *callbackData, int eventData1, int eventData2);"
+
+[linkFunc]
+Class="Function"
+Prototype="int linkFunc(int panel, int control, int event, void *callbackData, int eventData1, int eventData2);"
+
+[swap]
+Class="Function"
+Prototype="void swap(double *a, double *b);"
+
+[zoomFunc]
+Class="Function"
+Prototype="int zoomFunc(int panel, int control, int event, void *callbackData, int eventData1, int eventData2);"
+
+[graphFunc]
+Class="Function"
+Prototype="int graphFunc(int panel, int control, int event, void *callbackData, int eventData1, int eventData2);"
+
+[controlMusicFunc]
+Class="Function"
+Prototype="int controlMusicFunc(int panel, int control, int event, void *callbackData, int eventData1, int eventData2);"
+
+[volumeFunc]
+Class="Function"
+Prototype="int volumeFunc(int panel, int control, int event, void *callbackData, int eventData1, int eventData2);"
+
+[restoreFunc]
+Class="Function"
+Prototype="int restoreFunc(int panel, int control, int event, void *callbackData, int eventData1, int eventData2);"
+
+[clearGraph]
+Class="Function"
+Prototype="int clearGraph(int panel, int control, int event, void *callbackData, int eventData1, int eventData2);"
+
